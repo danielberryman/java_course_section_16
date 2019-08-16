@@ -18,7 +18,8 @@
       <change afterPath="$PROJECT_DIR$/../Section14/src/Exceptions/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section14/src/StackTraceNCallStack/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section15/src/Introduction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Introduction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Employees/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Employees/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section9/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section9/out/production/Section9/Hello.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section9/out/production/Section9/Main.class" afterDir="false" />
@@ -68,6 +69,12 @@
       <change beforePath="$PROJECT_DIR$/../CharAndBoolean" beforeDir="false" afterPath="$PROJECT_DIR$/../CharAndBoolean" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FloatAndDouble" beforeDir="false" afterPath="$PROJECT_DIR$/../FloatAndDouble" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloWorld" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section16/Introduction/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section16/Introduction/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section16/Introduction/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Section16/Introduction/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section16/Introduction/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section4" beforeDir="false" afterPath="$PROJECT_DIR$/../Section4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section5" beforeDir="false" afterPath="$PROJECT_DIR$/../Section5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section6" beforeDir="false" afterPath="$PROJECT_DIR$/../Section6" afterDir="false" />
@@ -97,17 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Introduction/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="313">
+              <caret line="39" column="11" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="39" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
+        <entry file="file://$PROJECT_DIR$/src/Employees/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+            <state relative-caret-position="304">
+              <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -122,25 +129,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Introduction/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/Employees/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Employees/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1814" />
-    <option name="y" value="38" />
+    <option name="x" value="1829" />
+    <option name="y" value="23" />
     <option name="width" value="1528" />
     <option name="height" value="970" />
   </component>
@@ -168,6 +170,12 @@
               <item name="Section16" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Employees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section16" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Introduction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -177,10 +185,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Employees" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,7 +208,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employees.Main" />
+      <module name="Section16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Employees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Introduction.Main" />
       <module name="Section16" />
@@ -210,6 +237,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -228,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1814" y="38" width="1528" height="970" extended-state="0" />
+    <frame x="1829" y="23" width="1528" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17967698" />
@@ -241,14 +269,14 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932706" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932706" visible="true" weight="0.4853801" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" x="-1902" y="644" width="918" height="317" id="Run" order="10" sideWeight="0.50067294" side_tool="true" visible="true" weight="0.32748538" />
+      <window_info active="true" anchor="bottom" x="-1902" y="644" width="918" height="317" id="Run" order="10" sideWeight="0.50067294" side_tool="true" visible="true" weight="0.4853801" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -267,17 +295,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Introduction/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13809">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Employees/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Introduction/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Employees/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
         </state>
       </provider>
     </entry>
