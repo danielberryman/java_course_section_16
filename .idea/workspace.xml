@@ -18,7 +18,9 @@
       <change afterPath="$PROJECT_DIR$/../Section14/src/Exceptions/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section14/src/StackTraceNCallStack/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section15/src/Introduction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Introduction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section9/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section9/out/production/Section9/Hello.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Section9/out/production/Section9/Main.class" afterDir="false" />
@@ -69,9 +71,7 @@
       <change beforePath="$PROJECT_DIR$/../FloatAndDouble" beforeDir="false" afterPath="$PROJECT_DIR$/../FloatAndDouble" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloWorld" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Section16/Employees/Main$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Section16/Employees/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Section16/Employees/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employees/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section4" beforeDir="false" afterPath="$PROJECT_DIR$/../Section4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section5" beforeDir="false" afterPath="$PROJECT_DIR$/../Section5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Section6" beforeDir="false" afterPath="$PROJECT_DIR$/../Section6" afterDir="false" />
@@ -99,28 +99,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Introduction/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Streams/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="11" selection-start-line="16" selection-start-column="8" selection-end-line="39" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Employees/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+            <state relative-caret-position="443">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java">
+        <entry file="file://$PROJECT_DIR$/src/Streams/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="295">
+              <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Streams/Dept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -143,6 +143,9 @@
         <option value="$PROJECT_DIR$/src/Introduction/Main.java" />
         <option value="$PROJECT_DIR$/src/Employees/Employee.java" />
         <option value="$PROJECT_DIR$/src/Employees/Main.java" />
+        <option value="$PROJECT_DIR$/src/Streams/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Streams/Dept.java" />
+        <option value="$PROJECT_DIR$/src/Streams/Main.java" />
       </list>
     </option>
   </component>
@@ -169,6 +172,18 @@
               <item name="Section16" type="b2602c69:ProjectViewProjectNode" />
               <item name="Section16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section16" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Employees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Section16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section16" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Streams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,13 +217,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Employees.Main" />
       <module name="Section16" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Employees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Main" />
+      <module name="Section16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,6 +259,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -251,8 +280,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1584" y="23" width="1584" height="980" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17574579" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17574579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -269,7 +299,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" x="-1902" y="644" width="918" height="317" id="Run" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.27398843" />
+      <window_info active="true" anchor="bottom" x="-1902" y="644" width="918" height="317" id="Run" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.3317919" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,13 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Employees/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -320,13 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Introduction/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="11" selection-start-line="16" selection-start-column="8" selection-end-line="39" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -344,17 +360,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Employees/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Introduction/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="39" column="11" selection-start-line="16" selection-start-column="8" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Employees/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Employees/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Streams/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Streams/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Streams/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
         </state>
       </provider>
     </entry>
