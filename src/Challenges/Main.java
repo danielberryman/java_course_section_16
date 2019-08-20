@@ -1,5 +1,7 @@
 package Challenges;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
@@ -59,6 +61,31 @@ public class Main {
         };
         String supplierResult = iLoveJava.get();
         System.out.println(supplierResult);
+
+//        CHALLENGE #9
+        List<String> topNames2015 = Arrays.asList(
+                "Amelia",
+                "Olivia",
+                "emily",
+                "Isla",
+                "Ava",
+                "oliver",
+                "jack",
+                "Charlie"
+        );
+
+        long namesBeginningWithA = topNames2015
+                .stream()
+                .map(name -> name.substring(0,1).toUpperCase() + name.substring(1))
+                .filter(name -> name.startsWith("A"))
+                .peek(System.out::println)
+                .count();
+
+        System.out.println("Names beginning with A: " + namesBeginningWithA);
+
+//        CHALLENGE #12
+
+
     }
 
     public static String everySecondCharacter(String str, Function<String, String> lambda) {
